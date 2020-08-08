@@ -1,0 +1,39 @@
+*{
+    margin: auto;
+}
+
+.example-form-field {
+    margin: 10px !important;
+}
+
+img {
+    width: 100px; 
+    height: 100px;
+}
+
+.cards {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.mat-card {
+    align-items: center;
+    background: linear-gradient(180deg, rgb(86,131,161) 0%, rgb(21,19,85)100%);
+    color: white;
+    flex-direction: row;
+    margin: 5px;
+    max-width: 275px;
+    text-align: center;
+}
+
+.content {
+    align-items: center;
+    flex: auto;
+    font-size: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
